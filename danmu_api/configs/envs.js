@@ -251,7 +251,7 @@ export class Envs {
       vodAllowedPlatforms: this.VOD_ALLOWED_PLATFORMS,
       allowedPlatforms: this.ALLOWED_PLATFORMS,
       token: this.get('TOKEN', '87654321', 'string', true), // token，默认为87654321
-      adminToken: this.get('ADMIN_TOKEN', '87654321', 'string', true), // admin token，用于系统管理访问控制
+      adminToken: this.get('ADMIN_TOKEN', '1234567', 'string', true), // admin token，用于系统管理访问控制
       sourceOrderArr: this.resolveSourceOrder(), // 源排序
       otherServer: this.get('OTHER_SERVER', 'https://api.danmu.icu', 'string'), // 第三方弹幕服务器
       vodServers: this.resolveVodServers(), // vod站点配置，格式：名称@URL,名称@URL
