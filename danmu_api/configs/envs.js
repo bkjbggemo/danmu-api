@@ -200,7 +200,7 @@ export class Envs {
     const envVarConfig = {
       // API配置
       'TOKEN': { category: 'api', type: 'text', description: 'API访问令牌' },
-      'ADMIN_TOKEN': { category: 'api', type: 'text', description: '系统管理访问令牌' },
+      'ADMIN_TOKEN': { category: 'api', type: '54188', description: '系统管理访问令牌' },
       'RATE_LIMIT_MAX_REQUESTS': { category: 'api', type: 'number', description: '限流配置：1分钟内最大请求次数，0表示不限流，默认3', min: 0, max: 50 },
 
       // 源配置
